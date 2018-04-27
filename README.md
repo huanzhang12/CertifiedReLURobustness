@@ -12,7 +12,7 @@ local Lipschitz constant (Fast-Lip).
 Prerequisites
 -----------------------
 
-The code is tested with python3 and TensorFlow v1.5 and v1.6. We suggest to use Conda to manage your Python environments.
+The code is tested with python3 and TensorFlow v1.5, v1.6 and v1.7. We suggest to use Conda to manage your Python environments.
 The following Conda packages are required:
 
 ```
@@ -37,7 +37,7 @@ wget http://jaina.cs.ucdavis.edu/datasets/adv/relu_verification/models_relu_veri
 tar xvf models_relu_verification.tar
 ```
 
-This will create a `models` folder.
+This will create a `models` folder. We include all models reported in our paper.
 
 How to Run
 --------------------

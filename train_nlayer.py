@@ -74,35 +74,5 @@ if not os.path.isdir('models'):
 
 
 if __name__ == '__main__':
-    # 2-layer models
-
-    # train(MNIST(), file_name="models/mnist_2layer_relu", params=[10], num_epochs=50, lr=0.03, decay=1e-6)
-    # train(MNIST(), file_name="models/mnist_2layer_relu", params=[50], num_epochs=50, lr=0.05,decay=1e-4)
-    # train(MNIST(), file_name="models/mnist_2layer_relu", params=[100], num_epochs=50, lr=0.05, decay=1e-4)
-    # train(MNIST(), file_name="models/mnist_2layer_relu", params=[1024], num_epochs=50, lr=0.1, decay=1e-3)
-    # train(CIFAR(), file_name="models/cifar_2layer_relu", params=[1024], num_epochs=50, lr=0.2, decay=1e-3)
-    # 3-layer models
-    # train(MNIST(), file_name="models/mnist_3layer_relu", params=[10, 10], num_epochs=50, lr=0.03, decay=1e-7)
-    # train(MNIST(), file_name="models/mnist_2layer_relu", params=[50], num_epochs=50, lr=0.05,decay=1e-4)
-    # train(MNIST(), file_name="models/mnist_2layer_relu", params=[100], num_epochs=50, lr=0.05, decay=1e-4)
-    # train(MNIST(), file_name="models/mnist_2layer_relu", params=[1024], num_epochs=50, lr=0.1, decay=1e-3)
-    # train(CIFAR(), file_name="models/cifar_2layer_relu", params=[1024], num_epochs=50, lr=0.2, decay=1e-3)
-    # 3-layer models
-    # train(MNIST(), file_name="models/mnist_3layer_relu", params=[10, 10], num_epochs=50, lr=0.03, decay=1e-7)
-    # train(MNIST(), file_name="models/mnist_2layer_relu", params=[100], num_epochs=50, lr=0.05, decay=1e-4)
-
-    # train(MNIST(), file_name="models/mnist_2layer_relu", params=[1024], num_epochs=50, lr=0.1, decay=1e-3)
-    # train(CIFAR(), file_name="models/cifar_2layer_relu", params=[1024], num_epochs=50, lr=0.2, decay=1e-3)
-    # 3-layer models
-    # train(MNIST(), file_name="models/mnist_3layer_relu_10_10", params=[10, 10], num_epochs=50, lr=0.03, decay=1e-7)
-    # train(MNIST(), file_name="models/mnist_3layer_relu", params=[256,256], num_epochs=50, lr=0.1, decay=1e-3)
-    # train(CIFAR(), file_name="models/cifar_3layer_relu", params=[256,256], num_epochs=50, lr=0.2, decay=1e-3)
-    # 4-layer models
-    # train(MNIST(), file_name="models/mnist_4layer_relu", params=[256,256,256], num_epochs=50, lr=0.1, decay=1e-3)
-    # train(CIFAR(), file_name="models/cifar_4layer_relu", params=[256,256,256], num_epochs=50, lr=0.2, decay=1e-3)
-    # train(MNIST(), file_name="models/mnist_4layer_relu", params=[20,20,20], num_epochs=50, lr=0.07, decay=1e-3)
-    # train(MNIST(), file_name="models/mnist_5layer_relu", params=[20,20,20,20], num_epochs=50, lr=0.03, decay=1e-4) 
     train(MNIST(), file_name="models/mnist_5layer_relu", params=[20,20,20,20], num_epochs=50, lr=0.02, decay=1e-4)
-    # more layer models
-    # (left for Lily XD)
 
