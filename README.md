@@ -1,13 +1,22 @@
-**Towards Fast Computation of Certified Robustness
-for ReLU Networks**, Tsui-Wei Weng\*, Huan Zhang\*, Hongge Chen, Zhao Song, Cho-Jui Hsieh, Duane Boning, Inderjit S. Dhillon, Luca Daniel (\* Equal Contribution)
+Neural Network Robustness Certification
+-----------------------
 
-[Paper PDF](https://arxiv.org/abs/1804.09699)
+In this work, we exploit the special structure of ReLU networks and provide two computationally efficient algorithms (**Fast-Lin** and **Fast-Lip**) that are able to **certify non-trivial lower bounds** of minimum distortions, by bounding the ReLU units with appropriate linear functions (Fast-Lin), or by bounding the local Lipschitz constant (Fast-Lip).
 
-In this work, we exploit the special structure of ReLU networks and provide
-two computationally efficient algorithms (Fast-Lin and Fast-Lip) that are able
-to certify non-trivial lower bounds of minimum distortions, by bounding the
-ReLU units with appropriate linear functions (Fast-Lin), or by bounding the
-local Lipschitz constant (Fast-Lip).
+Cite this work:
+
+Tsui-Wei Weng\*, Huan Zhang\*, Hongge Chen, Zhao Song, Cho-Jui Hsieh, Duane Boning, Inderjit S. Dhillon and Luca Daniel, ["Towards Fast Computation of Certified Robustness
+for ReLU Networks"](https://arxiv.org/abs/1804.09699), ICML 2018. (\* Equal Contribution)
+
+```
+@inproceedings{weng2018CertifiedRobustness,
+  author = "Tsui-Wei Weng AND Huan Zhang AND Hongge Chen AND Zhao Song AND Cho-Jui Hsieh AND Duane Boning AND Inderjit S. Dhillon AND　Luca Daniel",
+  title = "Towards Fast Computation of Certified Robustness for ReLU Networks",
+  booktitle = "International Conference on Machine Learning (ICML)",
+  year = "2018",
+  month = "july"
+}
+```
 
 Prerequisites
 -----------------------
