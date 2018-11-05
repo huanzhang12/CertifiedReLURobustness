@@ -18,6 +18,40 @@ for ReLU Networks"](https://arxiv.org/abs/1804.09699), ICML 2018. (\* Equal Cont
 }
 ```
 
+**Update: The neural network verification algorithms (Fast-Lin and Fast-Lip)
+proposed in this paper have been replaced with our new algorithms: CROWN
+and RecurJac**.  CROWN and RecurJac are more general than Fast-Lin and
+Fast-Lip, and achieve significant better results on ReLU networks. It is
+recommended to use new algorithms in the following papers:
+
+
+```
+@inproceedings{zhang2018recurjac,
+  author = "Huan Zhang AND Pengchuan Zhang AND Cho-Jui Hsieh",
+  title = "RecurJac: An Efficient Recursive Algorithm for Bounding Jacobian Matrix of Neural Networks and Its Applications",
+  booktitle = "AAAI Conference on Artificial Intelligence (AAAI), arXiv preprint arXiv:1810.11783",
+  year = "2019",
+  month = "dec"
+}
+```
+
+```
+@inproceedings{zhang2018crown,
+  author = "Huan Zhang AND Tsui-Wei Weng AND Pin-Yu Chen AND Cho-Jui Hsieh AND Luca Daniel",
+  title = "Efficient Neural Network Robustness Certification with General Activation Functions",
+  booktitle = "Advances in Neural Information Processing Systems (NIPS), arXiv preprint arXiv:1811.00866",
+  year = "2018",
+  month = "dec"
+}
+```
+
+**It is recommended to use the new implementation of Fast-Lin and Fast-Lip at
+https://github.com/huanzhang12/RecurJac-Jacobian-Bounds**. The new implementation
+has better readability, includes an unified interface to run all our
+algorithms, and also contains some bug fixes.
+
+The code in this repository will be not maintained and is intended to reproduce paper results only.
+
 Prerequisites
 -----------------------
 
