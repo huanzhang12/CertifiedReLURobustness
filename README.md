@@ -19,8 +19,8 @@ for ReLU Networks"](https://arxiv.org/abs/1804.09699), ICML 2018. (\* Equal Cont
 ```
 
 **Update: The neural network verification algorithms (Fast-Lin and Fast-Lip)
-proposed in this paper have been replaced with our new algorithms: CROWN
-and RecurJac**.  CROWN and RecurJac are more general than Fast-Lin and
+proposed in this paper have been replaced with our new algorithms:** [CROWN](https://arxiv.org/pdf/1811.00866.pdf)
+**and** [RecurJac](https://arxiv.org/pdf/1810.11783.pdf).  CROWN and RecurJac are more general than Fast-Lin and
 Fast-Lip, and achieve significant better results on ReLU networks. It is
 recommended to use new algorithms in the following papers:
 
@@ -45,12 +45,7 @@ recommended to use new algorithms in the following papers:
 }
 ```
 
-**It is recommended to use the new implementation of Fast-Lin and Fast-Lip at
-https://github.com/huanzhang12/RecurJac-Jacobian-Bounds**. The new implementation
-has better readability, includes an unified interface to run all our
-algorithms, and also contains some bug fixes.
-
-The code in this repository will be not maintained and is intended to reproduce paper results only.
+Please use the code provided in the new papers above. The code in this repository will be not maintained and is intended to reproduce paper results only. 
 
 Prerequisites
 -----------------------
